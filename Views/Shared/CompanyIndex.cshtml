@@ -1,0 +1,211 @@
+﻿@model IEnumerable<FinanceManagement.Models.Company>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+@{
+    ViewData["Title"] = "CompanyIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <!-- Begin page -->
+
+
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+
+                        <div style="margin-right:50px;margin-bottom:10px" class="page-title-right">
+                            <form asp-controller="Company" asp-action="ExportToExcel" method="get" class="d-flex">
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="startDate" class="form-control form-control-light" id="startDatePicker" placeholder="StartDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+
+
+                                <span style="margin-left:10px; margin-right:10px" class="my-1">To</span>
+
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="endDate" class="form-control form-control-light" id="endDatePicker" placeholder="EndDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+                                &nbsp;
+
+
+                                <button style="height:37px;margin-left:13px" class="input-group-text btn btn-primary" type="submit">Excel data</button>
+                            </form>
+
+                        </div>
+                        <h4 class="page-title">Company List</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row mb-2">
+                                <div class="col-xl-8">
+                                    <form class="row gy-2 gx-2 align-items-center justify-content-xl-start justify-content-between">
+                                        <div class="col-auto">
+                                            <label for="inputPassword2" class="visually-hidden">Search</label>
+
+                                            <input type="search" class="form-control" id="inputPassword2" name="search" placeholder="Search...">
+
+
+                                        </div>
+                                        <button style="width:auto" class="input-group-text btn btn-primary" type="submit">Search</button>
+
+                                    </form>
+                                </div>
+
+
+                                <div class="col-xl-4">
+                                    <div class="text-xl-end mt-xl-0 mt-2">
+                                        <a style="margin-right:15px" asp-area="Profile" asp-action="CompanyCreate" asp-controller="Company" class="btn btn-primary"><i class="mdi mdi-plus-circle me-2"></i>Add New CashFlow</a>
+
+
+
+                                        @* @Html.ActionLink("Export to Excel", "ExportToExcel", "Product")  *@
+
+
+                                    </div>
+                                </div><!-- end col-->
+                            </div>
+
+
+                            <br />
+
+
+                            <div class="tab-content">
+                                <div class="tab-pane show active" id="basic-datatable-preview">
+                                    <table id="basic-datatable" class="table table-striped dt-responsive nowrap w-100">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>
+                                                    Sr No.
+                                                </th>
+                                                <th>Company Name</th>
+                                                <th>Owner</th>
+                                                <th>Email</th>
+                                                
+                                                
+                                                <th style="width: 125px;">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                int serialNumber = 1;
+                                            }
+
+                                            @foreach (var company in Model)
+                                            {
+                                                <tr>
+
+                                                    <td>@serialNumber</td>
+                                                    
+                                                    <td class="text-body fw-bold">@company.FirmName</td>
+                                                    <td>@company.Owner</td>
+                                                    
+                                                    <td>@company.Email</td>
+
+                                                    
+                                                    <td>
+                                                        <a asp-action="CompanyEdit" asp-route-id="@company.Id" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a asp-action="CompanyDelete" asp-route-id="@company.Id" class="action-icon"><i class="mdi mdi-delete"></i></a>
+
+
+                                                    </td>
+                                                </tr>
+                                                serialNumber++;
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!-- end card-body-->
+                        </div>
+                    </div> <!-- end card-->
+                </div> <!-- end col -->
+            </div> <!-- end row -->
+        </div> <!-- container -->
+    </div>
+    <!-- content -->
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
+
+    <style>
+        .debit-amount {
+            color: red; /* Set the color to red for the debit amount */
+            font-weight: bold; /* Optionally make the text bold */
+        }
+
+        .credit-amount{
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+    @section scripts {
+
+        <script>
+            $(document).ready(function () {
+                $('#basic-datatable').DataTable();
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('#startDatePicker').datepicker({
+                    // Set options for the start date picker
+                });
+
+                $('#endDatePicker').datepicker({
+                    // Set options for the end date picker
+                });
+            });
+        </script>
+
+
+        <script>
+            // JavaScript to apply the CSS class to amount if transaction type is "Debit"
+            document.addEventListener('DOMContentLoaded', function () {
+                const transactionTypeSelect = document.getElementById('TransactionType');
+                const amountInput = document.getElementById('Amount');
+                const amountLabel = document.querySelector('label[for="Amount"]');
+
+                transactionTypeSelect.addEventListener('change', function () {
+                    if (transactionTypeSelect.value === 'Debit') {
+                        amountInput.classList.add('debit-amount');
+                        amountLabel.innerText = 'Amount (Debit)';
+                    } else {
+                        amountInput.classList.remove('debit-amount');
+                        amountLabel.innerText = 'Amount';
+                    }
+                });
+            });
+        </script>
+
+
+        <partial name="_Notification.cshtml" />
+
+
+    }
+
+</body>
+</html>
+
+

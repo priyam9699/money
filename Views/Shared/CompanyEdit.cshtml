@@ -1,0 +1,76 @@
+﻿@model FinanceManagement.Models.Company
+
+<form method="post" asp-action="CompanyEdit" asp-controller="Company" enctype="multipart/form-data">
+
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a asp-action="CompanyIndex" asp-controller="Company">Companies</a></li>
+                                <li class="breadcrumb-item active">Edit Company</li>
+                            </ol>
+                        </div>
+                        <h4 class="page-title">Edit Company</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-6">
+
+                                    <div class="mb-3">
+                                        <input hidden asp-for="@Model.Id" />
+                                    </div>
+
+                                    
+
+                                    <div class="mb-3">
+                                        <label for="description" class="form-label">Company Name</label>
+                                        <input asp-for="@Model.FirmName" class="form-control" />
+                                        <span asp-validation-for="@Model.FirmName" class="text-danger"></span>
+                                    </div>
+
+                                    
+
+                                    <div class="mb-3">
+                                        <label for="amount" class="form-label">Owner</label>
+                                        <input asp-for="@Model.Owner" class="form-control" />
+                                        <span asp-validation-for="@Model.Owner" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="amount" class="form-label">Email</label>
+                                        <input asp-for="@Model.Email" class="form-control" />
+                                        <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                                    </div>
+
+                                    
+
+                                    <button type="submit" class="btn btn-primary">Update</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</form>

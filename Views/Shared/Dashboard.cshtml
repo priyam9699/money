@@ -1,0 +1,180 @@
+﻿@model FinanceManagement.ViewModels.DashboardIndexVM
+
+<!DOCTYPE html>
+<html lang="en">
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    
+    <div class="content" id="dashboardContent">
+        
+        <div class="container-fluid">
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <div style="margin-right:50px;margin-bottom:10px" class="page-title-right">
+                            <form asp-controller="Home" asp-action="ExportToExcel" method="get" class="d-flex">
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="startDate" class="form-control form-control-light" id="startDatePicker" placeholder="StartDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+                                <span style="margin-left:10px; margin-right:10px" class="my-1">To</span>
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="endDate" class="form-control form-control-light" id="endDatePicker" placeholder="EndDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+                                &nbsp;
+                                <button style="height:37px;margin-left:13px" class="input-group-text btn btn-primary" type="submit">Excel data</button>
+                            </form>
+
+                        </div>
+                        <h4 class="page-title">Finance Dashboard</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <br />
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="mb-0 mx-9 font-15 text-muted">
+                                Cash-Balance:
+                                <span style="font-size:larger"  class="mt-0 text-success fw-semibold mb-1">₹ @ViewBag.TotalCashBalance</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="mb-0 mx-9 font-15 text-muted">
+                                Total Upad:
+                                <span style="font-size:larger"class="mt-0 text-success fw-semibold mb-1">₹ @ViewBag.TotalUpadAmount</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br />
+            <div class="row">
+                <h4>Firm Account Balances </h4>
+                @foreach (var firm in Model.FirmAccountBalances)
+                {
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="header-title">@firm.Key</h4>
+                                <p style="color:forestgreen; font-size:larger">₹ @firm.Value</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h4 class="header-title"> Monthly Overview</h4>
+
+                        </div>
+
+                        <div class="card-body">
+                            <div dir="ltr">
+                                <div class="chartjs-chart" style="height: 320px;">
+                                    <canvas id="task-area-chart" data-bgColor="#727cf5" data-borderColor="#727cf5"></canvas>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+        @section scripts {
+            
+            <script>
+                $(document).ready(function () {
+                    $('#basic-datatable').DataTable();
+                });
+            </script>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <script>
+            var monthlyOverviewData = @Html.Raw(Json.Serialize(Model.TotalAmountMonthly));
+
+            console.log(monthlyOverviewData);
+
+            // Extract the month names and values from the data
+            var months = Object.keys(monthlyOverviewData);
+            var values = Object.values(monthlyOverviewData);
+
+                // Get the canvas element
+                var ctx = document.getElementById('task-area-chart').getContext('2d');
+
+                // Create the chart
+                var chart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: months,
+                        datasets: [{
+                            label: 'Amount',
+                            data: values,
+                            backgroundColor: 'rgba(114, 124, 245, 0.5)',
+                            borderColor: '#727cf5',
+                            borderWidth: 2,
+                            pointBackgroundColor: '#727cf5',
+                            pointBorderColor: '#fff',
+                            pointRadius: 4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            </script>
+
+
+
+
+
+            <script>
+                $(document).ready(function () {
+                    $('#startDatePicker').datepicker({
+                        // Set options for the start date picker
+                    });
+
+                    $('#endDatePicker').datepicker({
+                        // Set options for the end date picker
+                    });
+                });
+            </script>
+
+            <partial name="_Notification.cshtml" />
+        }
+    
+</body>
+</html>

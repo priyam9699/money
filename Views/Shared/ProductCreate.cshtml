@@ -1,0 +1,102 @@
+﻿
+@model FinanceManagement.Models.Product
+
+
+<form method="post" asp-action="ProductCreate" asp-controller="Product" enctype="multipart/form-data">
+@* <div class="content-page"> *@
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a asp-action="ProductIndex" asp-controller="Product">Products</a></li>
+                                <li class="breadcrumb-item active">Create Product</li>
+                                
+                            </ol>
+                        </div>
+                        <h4 class="page-title">Add New Product</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row" style="margin-left:30px">
+                                <div class="col-xl-6">
+
+                                    <div class="mb-3 position-relative" id="datepicker1">
+                                        <label class="form-label">Date :-</label>
+                                        <input asp-for="@Model.Date" type="text" class="form-control" data-provide="datepicker" data-date-container="#datepicker1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Product Name</label>
+                                            <input asp-for="@Model.ProductName" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Product SKU</label>
+                                            <input asp-for="@Model.SKU" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Price</label>
+                                            <input asp-for="@Model.Price" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Quantity</label>
+                                            <input asp-for="@Model.Quantity" type="number" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Damage Quantity</label>
+                                        <input asp-for="@Model.DamageQuantity" type="number" id="projectname" class="form-control" placeholder="If Have Any Damage Products">
+                                    </div>
+
+                                    <div class="btn-group mb-2 ms-2">
+                                        <button style="width:130px; font-size:large"type="submit" class="btn btn-primary btn-sm">Create</button>
+                                        &nbsp;
+                                            &nbsp;
+                                            <a asp-action="ProductIndex" asp-controller="Product" class="btn btn-outline-secondary">Back To List</a>
+                                    </div>
+
+                                    
+
+                                    <!-- Date View -->
+                                    
+
+                                   
+
+                                    
+
+                                </div> <!-- end col-->
+
+
+                                
+                            </div>
+                            <!-- end row -->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card-->
+                </div> <!-- end col-->
+            </div>
+            <!-- end row-->
+
+        </div> <!-- container -->
+
+    </div> <!-- content -->
+    @* </div> *@
+</form>
+   
+

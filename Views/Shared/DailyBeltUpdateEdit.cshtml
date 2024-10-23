@@ -1,0 +1,103 @@
+﻿
+@model FinanceManagement.Models.DailyBeltUpdate
+
+
+<form method="post" asp-action="DailyBeltUpdateEdit" asp-controller="DailyBeltUpdate" enctype="multipart/form-data">
+
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                
+                                <li class="breadcrumb-item"><a asp-action="DailyBeltUpdateIndex" asp-controller="DailyBeltUpdate">DailyBeltUpdate</a></li>
+                                <li class="breadcrumb-item active">Edit DailyBeltUpdate</li>
+                            </ol>
+                        </div>
+                        <h4 class="page-title">Edit DailyBeltUpdate</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-4">
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">User Id</label>
+                                        <input asp-for="@Model.UserId" type="hidden" id="projectname" class="form-control">
+                                    </div>
+                                    <div class="mb-3 position-relative" id="datepicker1">
+                                        <label class="form-label">Date :-</label>
+                                        <input asp-for="@Model.Date" type="text" class="form-control" data-provide="datepicker" data-date-container="#datepicker1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">ProductName</label>
+                                        <input asp-for="@Model.ProductName" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                            <label for="projectname" class="form-label">ProductSKU</label>
+                                            <input asp-for="@Model.ProductSKU" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Product Id</label>
+                                            <input asp-for="@Model.ProductId" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Quantity</label>
+                                            <input asp-for="@Model.Quantity" type="number" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="btn-group mb-2 ms-2">
+                                        <button type="submit" class="btn btn-primary btn-sm">Update</button>
+                                        &nbsp;
+                                        &nbsp;
+                                        <a asp-action="DailyBeltUpdateIndex" asp-controller="DailyBeltUpdate" class="btn btn-outline-secondary">Back To List</a>
+                                    </div>
+
+                                    
+
+                                    <!-- Date View -->
+                                    
+
+                                   
+
+                                    
+
+                                </div> <!-- end col-->
+
+
+                                
+                            </div>
+                            <!-- end row -->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card-->
+                </div> <!-- end col-->
+            </div>
+            <!-- end row-->
+
+        </div> <!-- container -->
+
+    </div> <!-- content -->
+
+</form>
+   
+

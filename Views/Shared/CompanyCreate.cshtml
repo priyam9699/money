@@ -1,0 +1,123 @@
+﻿@model FinanceManagement.ViewModels.CompanyVM
+
+
+<form method="post" asp-action="CompanyCreate" asp-controller="Company" enctype="multipart/form-data">
+    @* <div class="content-page"> *@
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a asp-action="CompanyIndex" asp-controller="Company">Companies</a></li>
+                                <li class="breadcrumb-item active">Create New Company</li>
+
+                            </ol>
+                        </div>
+                        <h4 class="page-title">Add New Company</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row" style="margin-left:30px">
+                                <div class="col-xl-6">
+
+                                    
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Company Name</label>
+                                        <input asp-for="@Model.FirmName" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Owner</label>
+                                        <input asp-for="@Model.Owner" type="text" id="projectname" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label">Email</label>
+                                        <input asp-for="@Model.Email" type="email" id="projectname" class="form-control">
+                                    </div>
+                                    
+
+
+                                    
+                                    <br />
+                                    
+
+                                    <div class="btn-group mb-2 ms-2">
+                                        <button style="width:130px; font-size:large" type="submit" class="btn btn-primary btn-sm">Create</button>
+                                        &nbsp;
+                                        &nbsp;
+                                        <a asp-action="ProductIndex" asp-controller="Product" class="btn btn-outline-secondary">Back To List</a>
+                                    </div>
+
+
+
+                                    <!-- Date View -->
+
+
+
+
+
+
+                                </div> <!-- end col-->
+
+
+
+                            </div>
+                            <!-- end row -->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card-->
+                </div> <!-- end col-->
+            </div>
+            <!-- end row-->
+
+        </div> <!-- container -->
+
+    </div> <!-- content -->
+    @* </div> *@
+</form>
+
+<style>
+    /* CSS to display amount in red if the transaction type is "Debit" */
+    .debit-amount {
+        color: red;
+    }
+</style>
+
+<script>
+        // JavaScript to apply the CSS class to amount if transaction type is "Debit"
+        document.addEventListener('DOMContentLoaded', function () {
+            const transactionTypeSelect = document.getElementById('TransactionType');
+            const amountInput = document.getElementById('Amount');
+            const amountLabel = document.querySelector('label[for="Amount"]');
+
+            transactionTypeSelect.addEventListener('change', function () {
+                if (transactionTypeSelect.value === 'Debit') {
+                    amountInput.classList.add('debit-amount');
+                    amountLabel.innerText = 'Amount (Debit)';
+                } else {
+                    amountInput.classList.remove('debit-amount');
+                    amountLabel.innerText = 'Amount';
+                }
+            });
+        });
+    </script>
+
+
+

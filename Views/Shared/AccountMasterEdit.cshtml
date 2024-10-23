@@ -1,0 +1,284 @@
+﻿@model FinanceManagement.ViewModels.AccountMasterVM
+
+
+<form method="post" asp-action="AccountMasterEdit" asp-controller="AccountMaster" enctype="multipart/form-data">
+
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a asp-action="AccountMasterIndex" asp-controller="AccountMaster">AccountMaster</a></li>
+                                <li class="breadcrumb-item active">Edit AccountMaster</li>
+
+                            </ol>
+                        </div>
+                        <h4 class="page-title">Edit AccountMaster</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-xl-6">
+
+                                    <div class="mb-3">
+                                        <input hidden asp-for="@Model.Id" />
+                                    </div>
+
+                                    <div class="mb-3 position-relative" id="datepicker1">
+                                        <label class="form-label">Date :-</label>
+                                        <input asp-for="@Model.Date" type="text" class="form-control" data-provide="datepicker" data-date-container="#datepicker1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="Description" class="form-label">Description</label>
+                                        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                                        <span asp-validation-for="Description" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label asp-for="TransactionType" class="control-label">Transaction Type:</label>
+                                        <div>
+                                            <label><input type="radio" asp-for="TransactionType" value="Credit" /> Credit</label>
+                                            <label><input type="radio" asp-for="TransactionType" value="Debit" /> Debit</label>
+                                        </div>
+                                        <span asp-validation-for="TransactionType" class="text-danger"></span>
+                                    </div>
+
+
+
+
+
+                                    <div class="mb-3">
+                                        <label for="projectname" class="form-label"> Total Amount</label>
+                                        <input asp-for="@Model.TotalAmount" type="text" id="projectname" class="form-control">
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label asp-for="SelectedCompanyId" class="form-label">Select Company</label>
+                                        <select asp-for="SelectedCompanyId" asp-items="@(new SelectList(Model.Companies ?? Enumerable.Empty<FinanceManagement.Models.Company>(), "Id", "FirmName"))" class="form-select">
+                                            <option value="">--Select Company--</option>
+                                        </select>
+                                    </div>
+
+
+
+                                    <div class="mb-3">
+                                        <label for="category" class="form-label">Category</label>
+                                        <select asp-for="Category" class="form-control" onchange="onCategoryChange(this)">
+                                            <option value="">Select category</option>
+                                            <option value="Expenses">Expenses</option>
+                                            <option value="Upad">Upad</option>
+                                            <option value="Payments">Payments</option>
+                                            <option value="Cash">Cash</option>
+                                            <option value="Others">Other</option>
+                                        </select>
+                                        <span asp-validation-for="Category" class="text-danger"></span>
+                                    </div>
+
+                                    <div id="paymentTypeContainer" class="mb-3"></div>
+                                    <div id="additionalAmountContainer" class="mb-3"></div>
+
+
+
+                                    <div class="btn-group mb-2 ms-2">
+                                        <button type="submit" class="btn btn-primary btn-sm">Update</button>
+                                        &nbsp;
+                                        &nbsp;
+                                        <a asp-action="AccountMasterIndex" asp-controller="AccountMaster" class="btn btn-outline-secondary">Back To List</a>
+                                    </div>
+
+                                </div> <!-- end col-->
+
+
+
+                            </div>
+                            <!-- end row -->
+
+                        </div> <!-- end card-body -->
+                    </div> <!-- end card-->
+                </div> <!-- end col-->
+            </div>
+            <!-- end row-->
+
+        </div> <!-- container -->
+
+    </div> <!-- content -->
+
+</form>
+
+
+
+@section scripts {
+    <script>
+        function onCategoryChange(selectElement) {
+            var category = selectElement.value;
+            var transactionType = document.querySelector('input[name="TransactionType"]:checked');
+            var paymentTypeContainer = document.getElementById('paymentTypeContainer');
+            var additionalAmountContainer = document.getElementById('additionalAmountContainer');
+
+            // Clear previous selections
+            paymentTypeContainer.innerHTML = '';
+            additionalAmountContainer.innerHTML = '';
+
+            // Show PaymentCategory only if Category is Payments and TransactionType is Debit
+            if (category === 'Payments' && transactionType && transactionType.value === 'Debit') {
+                var paymentTypeLabel = document.createElement('label');
+                paymentTypeLabel.className = 'form-label';
+                paymentTypeLabel.innerText = 'Type of Payment:';
+
+                var paymentTypeSelect = document.createElement('select');
+                paymentTypeSelect.id = 'PaymentCategory';
+                paymentTypeSelect.name = 'PaymentCategory';
+                paymentTypeSelect.className = 'form-control';
+                paymentTypeSelect.onchange = function () {
+                    onPaymentTypeChange(this);
+                };
+
+                var option1 = document.createElement('option');
+                option1.value = 'Full Payment';
+                option1.innerText = 'Full Payment';
+
+                var option2 = document.createElement('option');
+                option2.value = 'Due Payment';
+                option2.innerText = 'Due Payment';
+
+                var option3 = document.createElement('option');
+                option3.value = 'Advance Payment';
+                option3.innerText = 'Advance Payment';
+
+                paymentTypeSelect.appendChild(option1);
+                paymentTypeSelect.appendChild(option2);
+                paymentTypeSelect.appendChild(option3);
+
+                paymentTypeContainer.appendChild(paymentTypeLabel);
+                paymentTypeContainer.appendChild(paymentTypeSelect);
+
+                // Preselect PaymentCategory if it exists (in edit mode)
+                var selectedPaymentCategory = '@Model.PaymentCategory';
+                if (selectedPaymentCategory) {
+                    paymentTypeSelect.value = selectedPaymentCategory;
+                    onPaymentTypeChange(paymentTypeSelect); // Trigger the change event to load the correct PaidAmount field
+                }
+            }
+            else if (category === 'Upad') {
+                // Handle Upad Category selection
+                var upadLabel = document.createElement('label');
+                upadLabel.className = 'form-label';
+                upadLabel.innerText = 'Upad Category:';
+
+                var upadSelect = document.createElement('select');
+                upadSelect.id = 'UpadCategory';
+                upadSelect.name = 'UpadCategory';
+                upadSelect.className = 'form-control';
+
+                var option1 = document.createElement('option');
+                option1.value = 'Harsh';
+                option1.innerText = 'Harsh';
+
+                var option2 = document.createElement('option');
+                option2.value = 'Vijay';
+                option2.innerText = 'Vijay';
+
+                var option3 = document.createElement('option');
+                option3.value = 'Rajan';
+                option3.innerText = 'Rajan';
+
+                upadSelect.appendChild(option1);
+                upadSelect.appendChild(option2);
+                upadSelect.appendChild(option3);
+
+                paymentTypeContainer.appendChild(upadLabel);
+                paymentTypeContainer.appendChild(upadSelect);
+            }
+        }
+
+        function onPaymentTypeChange(selectElement) {
+            var paymentType = selectElement.value;
+            var totalAmountInput = document.querySelector('input[name="TotalAmount"]');
+            var additionalAmountContainer = document.getElementById('additionalAmountContainer');
+
+            additionalAmountContainer.innerHTML = '';
+
+            if (paymentType === 'Full Payment') {
+                // Set the PaidAmount equal to TotalAmount when Full Payment is selected
+                var totalAmount = totalAmountInput.value;
+                var paidAmountLabel = document.createElement('label');
+                paidAmountLabel.className = 'form-label';
+                paidAmountLabel.innerText = 'Paid Amount (Full Payment):';
+
+                var paidAmountInput = document.createElement('input');
+                paidAmountInput.type = 'number';
+                paidAmountInput.id = 'PaidAmount';
+                paidAmountInput.name = 'PaidAmount';
+                paidAmountInput.className = 'form-control';
+                paidAmountInput.value = totalAmount;
+                paidAmountInput.readOnly = true; // Make this field read-only to prevent user modification
+
+                additionalAmountContainer.appendChild(paidAmountLabel);
+                additionalAmountContainer.appendChild(paidAmountInput);
+            }
+            else if (paymentType === 'Due Payment' || paymentType === 'Advance Payment') {
+                var amountLabel = document.createElement('label');
+                amountLabel.className = 'form-label';
+                amountLabel.innerText = 'Amount:';
+
+                var amountInput = document.createElement('input');
+                amountInput.type = 'number';
+                amountInput.id = 'PaidAmount';
+                amountInput.name = 'PaidAmount';
+                amountInput.className = 'form-control';
+                amountInput.placeholder = 'Enter Amount';
+
+                additionalAmountContainer.appendChild(amountLabel);
+                additionalAmountContainer.appendChild(amountInput);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Trigger the category change event on page load (for edit mode)
+            var categorySelect = document.querySelector('select[name="Category"]');
+            onCategoryChange(categorySelect);
+
+            document.querySelectorAll('input[name="TransactionType"]').forEach(function (input) {
+                input.addEventListener('change', function () {
+                    onCategoryChange(categorySelect);
+                });
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#startDatePicker').datepicker({
+                // Set options for the start date picker
+            });
+
+            $('#endDatePicker').datepicker({
+                // Set options for the end date picker
+            });
+        });
+    </script>
+
+    
+
+}
+<style>
+    .debit-amount {
+        color: red;
+    }
+</style>

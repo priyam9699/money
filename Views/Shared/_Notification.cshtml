@@ -1,0 +1,51 @@
+﻿@if (TempData["success"] != null)
+{
+    <script>
+
+        $.toast({
+            heading: 'Success',
+            text: [
+                '@TempData["success"]'
+            ],
+            icon: 'success',
+            hideAfter: 5000,
+            position: 'top-right',
+        });
+    </script>
+   
+}
+
+@if (TempData["error"] != null)
+{
+    <script>
+
+        $.toast({
+            heading: 'Error',
+            text: [
+                '@TempData["error"]'
+            ],
+            icon: 'error',
+            hideAfter: 5000,
+            position: 'top-right',
+        });
+    </script>
+}
+
+@if (TempData["info"] != null)
+{
+    @*<script src="~/assets/js/vendor.min.js"></script>
+    <script src="~/assets//vendor/jquery-toast-plugin/jquery.toast.min.js"></script>
+    <link rel="stylesheet" href="~/assets/vendor/jquery-toast-plugin/jquery.toast.min.css" />*@
+    <script>
+
+        $.toast({
+            heading: 'Success',
+            text: [
+                '@TempData["info"]'
+            ],
+            icon: 'info',
+            hideAfter: 5000,
+            position: 'top-right',
+        });
+    </script>
+}

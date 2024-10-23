@@ -1,0 +1,269 @@
+﻿@model IEnumerable<FinanceManagement.Models.CashFlow>
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+@{
+    ViewData["Title"] = "AccountMasterIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <!-- Begin page -->
+
+
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+
+                        <div style="margin-right:50px;margin-bottom:10px" class="page-title-right">
+                            <form asp-controller="CashFlow" asp-action="ExportToExcel" method="get" class="d-flex">
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="startDate" class="form-control form-control-light" id="startDatePicker" placeholder="StartDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+
+
+                                <span style="margin-left:10px; margin-right:10px" class="my-1">To</span>
+
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="endDate" class="form-control form-control-light" id="endDatePicker" placeholder="EndDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+                                &nbsp;
+
+
+                                <button style="height:37px;margin-left:13px" class="input-group-text btn btn-primary" type="submit">Excel data</button>
+                            </form>
+
+                        </div>
+                        <h4 class="page-title">CashFlow List</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row mb-2">
+                                <div class="col-xl-8">
+                                    <form asp-controller="CashFlow" asp-action="CashFlowIndex" method="get" class="d-flex">
+                                        <div style="width:300px" class="input-group">
+                                            <select id="dateFilter" name="dateFilter" class="form-control">
+
+                                                <option value="1">Yesterday</option>
+                                                <option value="2">Last 7 days</option>
+                                                <option value="3">Last 15 days</option>
+                                                <option value="4">Last month</option>
+                                                <option value="5">Custom Date</option>
+                                            </select>
+
+                                            <!-- Placeholder for custom date inputs -->
+                                            <div id="customDateInputs" style="display: none; margin-left: 7px; display: flex; gap: 10px;">
+                                                <input type="text" name="startDate" class="form-control form-control-light" id="customStartDatePicker" placeholder="Start Date" />
+                                                <input type="text" name="endDate" class="form-control form-control-light" id="customEndDatePicker" placeholder="End Date" />
+                                            </div>
+
+                                            <button class="input-group-text btn btn-primary" type="submit" style="margin-left: 10px;">Filter</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                                <div class="col-xl-4">
+                                    <div class="text-xl-end mt-xl-0 mt-2">
+                                        <a style="margin-right:15px" asp-area="Profile" asp-action="CashFlowCreate" asp-controller="CashFlow" class="btn btn-primary"><i class="mdi mdi-plus-circle me-2"></i>Add New CashEntry</a>
+
+
+
+                                        @* @Html.ActionLink("Export to Excel", "ExportToExcel", "Product")  *@
+
+
+                                    </div>
+                                </div><!-- end col-->
+                            </div>
+
+
+                            <br />
+
+
+                            <div class="tab-content">
+                                <div class="tab-pane show active" id="basic-datatable-preview">
+                                    <table id="basic-datatable" class="table table-striped dt-responsive nowrap w-100">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Sr No.</th>
+                                                <th>Date</th>
+                                                <th>Description</th>
+
+                                                <th>Amount</th>
+                                                
+                                                <th>Category</th>
+                                                <th style="width: 125px;">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                int serialNumber = 1;
+                                            }
+
+                                            @foreach (var cashFlow in Model)
+                                            {
+                                                <tr>
+                                                    <td>@serialNumber</td>
+                                                    <td>@cashFlow.Date.ToString("dd/MM/yyyy")</td>
+                                                    <td class="text-body fw-bold">@cashFlow.Description</td>
+
+                                                    <td>
+                                                        @if (cashFlow.TransactionType == "Debit")
+                                                        {
+                                                            <span class="debit-amount">@cashFlow.Amount</span>
+                                                        }
+                                                        else
+                                                        {
+                                                            <span class="credit-amount">@cashFlow.Amount</span>
+                                                        }
+                                                    </td>
+                                                    
+                                                    <td>@cashFlow.Category</td>
+                                                    <td>
+                                                        <a asp-action="CashFlowEdit" asp-route-id="@cashFlow.Id" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a asp-action="CashFlowDelete" asp-route-id="@cashFlow.Id" class="action-icon"><i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                serialNumber++;
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end card-->
+                </div> <!-- end col -->
+            </div> <!-- end row -->
+        </div> <!-- container -->
+    </div>
+    <!-- content -->
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
+
+    <style>
+        .debit-amount {
+            color: red;
+            font-weight: bold;
+        }
+
+        .credit-amount {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+
+    @section scripts {
+
+        @* <script>
+    function deleteProduct(productId) {
+    Swal.fire({
+    title: 'Are you sure?',
+    text: "You won't be able to revert this!",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+    if (result.isConfirmed) {
+    $.ajax({
+    url: '/Product/ProductDelete',
+    type: 'DELETE',
+    success: function (data) {
+    if (data.success) {
+    dtable.ajax.reload();
+    toastr.success(data.message);
+    }
+    else {
+    toastr.error(data.message);
+    }
+    }
+
+
+
+    })
+    }
+    })
+    }
+
+    </script> *@
+
+        <script>
+            $(document).ready(function () {
+                // Initialize the date pickers
+                $('#customStartDatePicker').datepicker({
+                    format: 'mm/dd/yyyy',
+                    autoclose: true
+                });
+
+                $('#customEndDatePicker').datepicker({
+                    format: 'mm/dd/yyyy',
+                    autoclose: true
+                });
+
+                // Function to show/hide custom date inputs
+                function updateDateInputs() {
+                    var selectedValue = $('#dateFilter').val();
+                    if (selectedValue === '5') { // Custom Date
+                        $('#customDateInputs').show();
+                    } else {
+                        $('#customDateInputs').hide();
+                    }
+                }
+
+                // Call the function on page load
+                updateDateInputs();
+
+                // Call the function whenever the filter changes
+                $('#dateFilter').on('change', function () {
+                    updateDateInputs();
+                });
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('#basic-datatable').DataTable();
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('#startDatePicker').datepicker({
+                    // Set options for the start date picker
+                });
+
+                $('#endDatePicker').datepicker({
+                    // Set options for the end date picker
+                });
+            });
+        </script>
+
+
+        <partial name="_Notification.cshtml" />
+
+
+    }
+
+</body>
+</html>

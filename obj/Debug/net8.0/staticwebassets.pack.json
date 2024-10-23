@@ -1,0 +1,1457 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinanceManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinanceManagement.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\css\\animation.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animation.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\css\\app-saas.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\app-saas.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Bold.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Bold.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Bold.eot@"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Bold.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Light.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Light.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Light.eot@"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Light.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Light.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Light.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Medium.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Medium.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Medium.eot@"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Medium.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Medium.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Medium.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Regular.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Regular.eot@"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-SemiBold.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-SemiBold.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-SemiBold.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-SemiBold.eot@"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-SemiBold.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-SemiBold.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\Nunito-SemiBold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-SemiBold.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-light.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-light.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-light.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-light.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-medium.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-medium.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-semibold.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-semibold.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\hkgrotesk-semibold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\hkgrotesk-semibold.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\materialdesignicons-webfont.eot@v=6.5.95",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont.eot@v=6.5.95"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\remixicon.eot@t=1590207869815",
+      "PackagePath": "staticwebassets\\assets\\fonts\\remixicon.eot@t=1590207869815"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\remixicon.svg@t=1590207869815",
+      "PackagePath": "staticwebassets\\assets\\fonts\\remixicon.svg@t=1590207869815"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\remixicon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\remixicon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\remixicon.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\remixicon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\unicons.eot@34404611",
+      "PackagePath": "staticwebassets\\assets\\fonts\\unicons.eot@34404611"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\unicons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\unicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\unicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\unicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\unicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\unicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\fonts\\unicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\unicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\OIMZ3J0-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OIMZ3J0-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\access-denied.png",
+      "PackagePath": "staticwebassets\\assets\\images\\access-denied.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\barcode.png",
+      "PackagePath": "staticwebassets\\assets\\images\\barcode.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\bg-auth.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-auth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\bg-pattern-light.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-pattern-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\bg-pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\brands\\bitbucket.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\bitbucket.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\brands\\dropbox.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\dropbox.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\brands\\g-suite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\g-suite.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\brands\\github.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\flags\\germany.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\germany.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\flags\\italy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\italy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\flags\\russia.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\russia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\flags\\spain.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\spain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\flags\\us.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\hero-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\layouts\\layout-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\layouts\\layout-1.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\layouts\\layout-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\layouts\\layout-2.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\layouts\\layout-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\layouts\\layout-3.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\layouts\\layout-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\layouts\\layout-4.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\layouts\\layout-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\layouts\\layout-5.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\layouts\\layout-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\layouts\\layout-6.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\logo-dark-sm.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\logo-sm.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\logopilo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logopilo.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\payments\\cod.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments\\cod.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\payments\\discover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments\\discover.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\payments\\master.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments\\master.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\payments\\payoneer.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments\\payoneer.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\payments\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\payments\\stripe.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments\\stripe.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\payments\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payments\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\products\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\products\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\products\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\products\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\products\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\products\\product-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\products\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\products\\product-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\products\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\projects\\project-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\project-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\projects\\project-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\project-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\projects\\project-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\project-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\projects\\project-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\projects\\project-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\sifoz Stay fit logo (1).png",
+      "PackagePath": "staticwebassets\\assets\\images\\sifoz Stay fit logo (1).png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\skype.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\skype.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\small\\small-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\small\\small-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\small\\small-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\small\\small-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\small\\small-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\small\\small-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\small\\small-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\small\\small-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\email-campaign.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\email-campaign.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\features-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\features-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\features-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\features-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\file-searching.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\file-searching.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\help-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\help-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\mail_sent.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\mail_sent.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\maintenance.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\maintenance.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\report.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\report.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\startman.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\startman.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\svg\\startup.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\startup.svg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\waves.png",
+      "PackagePath": "staticwebassets\\assets\\images\\waves.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\abstack-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\abstack-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\adminto-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\adminto-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\codefox-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\codefox-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\flacto-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\flacto-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\formsubmit.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\formsubmit.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\greeva-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\greeva-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\highdmin-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\highdmin-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\hyper-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\hyper-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\hyper-react-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\hyper-react-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\metrico-landing.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\metrico-landing.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\minton-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\minton-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\moltran-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\moltran-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\shreyu-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\shreyu-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\simple-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\simple-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\simulor-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\simulor-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\starto-landing.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\starto-landing.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\ubold-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\ubold-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\uplon-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\uplon-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\velonic-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\velonic-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\xeria-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\xeria-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\zairo-landing.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\zairo-landing.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\zircos-admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\zircos-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\images\\work\\zodkoo-landing.png",
+      "PackagePath": "staticwebassets\\assets\\images\\work\\zodkoo-landing.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\hyper-config.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hyper-config.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\hyper-syntax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hyper-syntax.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-area.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-area.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-bar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-boxplot.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-boxplot.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-bubble.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-bubble.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-candlestick.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-candlestick.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-column.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-column.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-heatmap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-heatmap.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-line.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-line.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-mixed.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-mixed.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-pie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-pie.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-polar-area.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-polar-area.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-radar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-radar.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-radialbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-radialbar.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-scatter.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-scatter.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-sparklines.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-sparklines.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-timeline.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-timeline.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.apex-treemap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.apex-treemap.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.britechart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.britechart.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.calendar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.chartjs-area.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.chartjs-area.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.chartjs-bar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.chartjs-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.chartjs-line.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.chartjs-line.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.chartjs-other.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.chartjs-other.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.crm-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.crm-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.crm-management.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.crm-management.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.crm-project.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.crm-project.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.customers.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.customers.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.dashboard-analytics.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.dashboard-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.dashboard-projects.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.dashboard-projects.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.dashboard-wallet.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.dashboard-wallet.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.datatable-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.datatable-init.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.form-wizard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.form-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.google-maps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.google-maps.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.inbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.inbox.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.jstree.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.jstree.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.materialdesignicons.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.materialdesignicons.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.products.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.products.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.profile.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.profile.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.project-detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.project-detail.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.project-gantt.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.project-gantt.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.quilljs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.quilljs.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.remixicons.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.remixicons.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.sellers.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.sellers.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.simplemde.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.simplemde.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.sparkline.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.sparkline.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.tasks.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.tasks.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.timepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.timepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.toastr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.toastr.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.typehead.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.typehead.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.vector-maps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.vector-maps.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\pages\\demo.widgets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\portfolio.init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\portfolio.init.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\ui\\component.dragula.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui\\component.dragula.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\ui\\component.fileupload.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui\\component.fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\ui\\component.range-slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui\\component.range-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\ui\\component.rating.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui\\component.rating.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\ui\\component.todo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui\\component.todo.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\js\\vendor.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\jquery-jvectormap-1.2.2.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\jquery-jvectormap-1.2.2.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-au-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-au-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-ca-lcc-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-ca-lcc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-es-merc.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-es-merc.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-es-mill.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-es-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-europe-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-europe-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-fr-merc-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-fr-merc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-in-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-in-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-us-il-chicago-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-us-il-chicago-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-us-merc-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-us-merc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\admin-resources\\jquery.vectormap\\maps\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\bootstrap-maxlength\\bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-maxlength\\bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\bootstrap-timepicker\\css\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-timepicker\\css\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\bootstrap-timepicker\\js\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-timepicker\\js\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\britecharts\\bundled\\britecharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\britecharts\\bundled\\britecharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\britecharts\\css\\britecharts.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\britecharts\\css\\britecharts.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\clipboard\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\clipboard\\clipboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\d3\\d3.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\d3\\d3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-bs5\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-bs5\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-buttons-bs5\\css\\buttons.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-buttons-bs5\\css\\buttons.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-buttons-bs5\\js\\buttons.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-buttons-bs5\\js\\buttons.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-buttons\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-buttons\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-buttons\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-buttons\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-buttons\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-buttons\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-buttons\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-buttons\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-fixedcolumns-bs5\\css\\fixedColumns.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-fixedcolumns-bs5\\css\\fixedColumns.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-fixedcolumns-bs5\\js\\fixedColumns.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-fixedcolumns-bs5\\js\\fixedColumns.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-fixedheader-bs5\\css\\fixedHeader.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-fixedheader-bs5\\css\\fixedHeader.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-fixedheader\\js\\dataTables.fixedHeader.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-fixedheader\\js\\dataTables.fixedHeader.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-keytable\\js\\dataTables.keyTable.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-keytable\\js\\dataTables.keyTable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-responsive-bs5\\css\\responsive.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-responsive-bs5\\css\\responsive.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-responsive-bs5\\js\\responsive.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-responsive-bs5\\js\\responsive.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-responsive\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-responsive\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-select-bs5\\css\\select.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-select-bs5\\css\\select.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net-select\\js\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net-select\\js\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\datatables.net\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\datatables.net\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\dragula\\dragula.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\dragula\\dragula.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\dropzone\\min\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\dropzone\\min\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\flatpickr\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flatpickr\\flatpickr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\flatpickr\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flatpickr\\flatpickr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\frappe-gantt\\frappe-gantt.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\frappe-gantt\\frappe-gantt.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\frappe-gantt\\frappe-gantt.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\frappe-gantt\\frappe-gantt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\handlebars\\handlebars.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\handlebars\\handlebars.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\highlightjs\\highlight.pack.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\highlightjs\\highlight.pack.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\ion-rangeslider\\js\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ion-rangeslider\\js\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jquery-datatables-checkboxes\\js\\dataTables.checkboxes.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-datatables-checkboxes\\js\\dataTables.checkboxes.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jquery-mask-plugin\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-mask-plugin\\jquery.mask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jquery-toast-plugin\\jquery.toast.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-toast-plugin\\jquery.toast.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jquery-toast-plugin\\jquery.toast.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-toast-plugin\\jquery.toast.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jquery.rateit\\scripts\\jquery.rateit.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery.rateit\\scripts\\jquery.rateit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jstree\\jstree.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jstree\\jstree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jstree\\themes\\default\\32px.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jstree\\themes\\default\\32px.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jstree\\themes\\default\\40px.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jstree\\themes\\default\\40px.png"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jstree\\themes\\default\\style.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jstree\\themes\\default\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\jstree\\themes\\default\\throbber.gif",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jstree\\themes\\default\\throbber.gif"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\moment\\min\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\moment\\min\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\quill\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.bubble.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\quill\\quill.core.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.core.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\quill\\quill.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\simplemde\\simplemde.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\simplemde\\simplemde.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\simplemde\\simplemde.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\simplemde\\simplemde.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\twitter-bootstrap-wizard\\jquery.bootstrap.wizard.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\twitter-bootstrap-wizard\\jquery.bootstrap.wizard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\assets\\vendor\\typeahead.js\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\typeahead.js\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\priyam\\OneDrive\\Desktop\\software\\FinanceManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinanceManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinanceManagement.props",
+      "PackagePath": "build\\FinanceManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinanceManagement.props",
+      "PackagePath": "buildMultiTargeting\\FinanceManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinanceManagement.props",
+      "PackagePath": "buildTransitive\\FinanceManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

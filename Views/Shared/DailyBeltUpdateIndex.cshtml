@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<body>
+    <!-- Begin page -->
+    <div class="content">
+        <!-- Start Content-->
+        <div class="container-fluid">
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box">
+                        <div class="page-title-right">
+
+                            <form asp-controller="DailyBeltUpdate" asp-action="ExportToExcel" method="get" class="d-flex">
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="startDate" class="form-control form-control-light" id="startDatePicker" placeholder="StartDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+
+
+                                <span style="margin-left:10px; margin-right:10px" class="my-1">To</span>
+
+                                <div style="height:7px" class="input-group">
+                                    <input type="text" name="endDate" class="form-control form-control-light" id="endDatePicker" placeholder="EndDate">
+                                    <span class="input-group-text bg-primary border-primary text-white">
+                                        <i class="mdi mdi-calendar-range font-13"></i>
+                                    </span>
+                                </div>
+                                &nbsp;
+
+
+                                <button style="height:37px;margin-left:13px" class="input-group-text btn btn-primary" type="submit">Excel data</button>
+                            </form>                           
+                        </div>
+                        <h4 class="page-title">DailyBeltUpdate List</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row mb-2">
+                                <div class="col-xl-8">                                  
+
+                                    <form asp-controller="DailyBeltUpdate" asp-action="DailyBeltUpdateIndex" method="get" class="d-flex">
+                                        <div style="width:330px" class="input-group">
+                                            <select name="month" class="form-control">
+                                                <option value="">Select Month</option>
+                                                <option value="1">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option value="6">June</option>
+                                                <option value="7">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                            <select name="year" class="form-control">
+                                                <option value="">Select Year</option>
+                                                @for (int year = DateTime.Now.Year; year >= 2000; year--)
+                                                {
+                                                    <option value="@year">@year</option>
+                                                }
+                                            </select>
+                                            <button class="input-group-text btn btn-primary" type="submit">Filter</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="text-xl-end mt-xl-0 mt-2">
+                                        <a style="margin-right:15px" asp-action="DailyBeltUpdateCreate" asp-controller="DailyBeltUpdate" class="btn btn-primary"><i class="mdi mdi-plus-circle me-2"></i>Add New DailyBeltUpdate</a>
+                                    </div>
+                                </div><!-- end col-->
+                            </div>
+                            <br />
+                            <div class="tab-content">
+                                <div class="tab-pane show active" id="basic-datatable-preview">
+                                    <table id="basic-datatable" class="table table-striped dt-responsive nowrap w-100">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Sr No.</th>
+                                                <th>Date</th>
+                                                <th>Product Name</th>
+                                                
+                                                <th>Quantity</th>
+                                                <th style="width: 125px;">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                int serialNumber = 1;
+                                            }
+                                            @foreach (var dailybelt in Model)
+                                            {
+                                                <tr>
+                                                    <td>@serialNumber</td>
+                                                    <td>@dailybelt.Date.ToString("dd/MM/yyyy")</td>
+                                                    <td class="text-body fw-bold">@dailybelt.ProductName</td>
+                                                    
+                                                    <td>@dailybelt.Quantity</td>
+                                                    <td>
+                                                        <a asp-action="DailyBeltUpdateEdit" asp-route-id="@dailybelt.Id" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                                        <a asp-action="DailyBeltUpdateDelete" asp-route-id="@dailybelt.Id" class="action-icon"><i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                serialNumber++;
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!-- end card-body-->
+                        </div> <!-- end card-->
+                    </div> <!-- end col -->
+                </div> <!-- end row -->
+            </div> <!-- container -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+    </div>
+
+    @section scripts {
+        <script>
+            $(document).ready(function () {
+                $('#basic-datatable').DataTable();
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('#startDatePicker').datepicker({
+                    // Set options for the start date picker
+                });
+
+                $('#endDatePicker').datepicker({
+                    // Set options for the end date picker
+                });
+            });
+        </script>
+    }
+</body>
+</html>
